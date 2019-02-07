@@ -212,6 +212,13 @@ export default class RoomsListView extends LoggedView {
 		return false;
 	}
 
+	// eslint-disable-next-line react/sort-comp
+	componentDidAppear() {
+		setTimeout(() => {
+			this.goRoom({ rid: 'GENERAL', name: 'general', t: 'c' });
+		}, 300);
+	}
+
 	componentDidUpdate(prevProps) {
 		const {
 			sortBy, groupByType, showFavorites, showUnread, appState

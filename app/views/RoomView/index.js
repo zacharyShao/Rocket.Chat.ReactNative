@@ -116,6 +116,14 @@ export default class RoomView extends LoggedView {
 		this.internalSetState({ loaded: true });
 	}
 
+	// eslint-disable-next-line react/sort-comp
+	componentDidAppear = () => {
+		setTimeout(async() => {
+			const { componentId } = this.props;
+			await Navigation.pop(componentId);
+		}, 300);
+	}
+
 	shouldComponentUpdate(nextProps, nextState) {
 		const {
 			room, loaded, joined
