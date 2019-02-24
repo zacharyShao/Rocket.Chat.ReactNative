@@ -4417,10 +4417,10 @@ detect-port@^1.2.3:
     address "^1.0.1"
     debug "^2.6.0"
 
-detox@^10.0.5:
-  version "10.0.5"
-  resolved "https://registry.yarnpkg.com/detox/-/detox-10.0.5.tgz#c7e4ab78fbffd2fcaaa29d0eb90673d4939a41f0"
-  integrity sha512-imUTxCqlPahmkDMzuqJAKuV9VJLRfPYg4KPzlB/hIAdl8IMIcKmKmWJcl9jxiMfc8GQ6oG++zvLBTM/dX04qpg==
+detox@^10.0.10:
+  version "10.0.10"
+  resolved "https://registry.yarnpkg.com/detox/-/detox-10.0.10.tgz#02b062f067be5e001dbc02b76070df65134278a5"
+  integrity sha512-nj1eeGQFJykU07hKVsyaLzTRx+zMif6RgY+iXtnByMtlCKWsC8ECSWF4dcVTCQH/jLGKgdyplUqGcK5c+o7ILA==
   dependencies:
     bunyan "^1.8.12"
     bunyan-debug-stream "^1.1.0"
