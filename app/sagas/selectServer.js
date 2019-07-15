@@ -1,15 +1,21 @@
-import { put, takeLatest } from 'redux-saga/effects';
-import { AsyncStorage, Alert } from 'react-native';
+import {
+	put, take, takeLatest, fork, cancel, race
+} from 'redux-saga/effects';
+import { Alert } from 'react-native';
+import RNUserDefaults from 'rn-user-defaults';
 
 import Navigation from '../lib/Navigation';
 import { SERVER } from '../actions/actionsTypes';
 import * as actions from '../actions';
-import { serverFailure, selectServerRequest, selectServerSuccess } from '../actions/server';
+import {
+	serverFailure, selectServerRequest, selectServerSuccess, selectServerFailure
+} from '../actions/server';
 import { setUser } from '../actions/login';
 import RocketChat from '../lib/rocketchat';
 import database from '../lib/realm';
 import log from '../utils/log';
 import I18n from '../i18n';
+import { SERVERS, TOKEN, SERVER_URL } from '../constants/userDefaults';
 
 const getServerInfo = function* getServerInfo({ server, raiseError = true }) {
 	try {
@@ -34,13 +40,21 @@ const getServerInfo = function* getServerInfo({ server, raiseError = true }) {
 
 const handleSelectServer = function* handleSelectServer({ server, version, fetchVersion }) {
 	try {
-		yield AsyncStorage.setItem('currentServer', server);
-		const userStringified = yield AsyncStorage.getItem(`${ RocketChat.TOKEN_KEY }-${ server }`);
+		const { serversDB } = database.databases;
 
-		if (userStringified) {
-			const user = JSON.parse(userStringified);
-			yield RocketChat.connect({ server, user });
-			yield put(setUser(user));
+		yield RNUserDefaults.set('currentServer', server);
+		const userId = yield RNUserDefaults.get(`${ RocketChat.TOKEN_KEY }-${ server }`);
+		const user = userId && serversDB.objectForPrimaryKey('user', userId);
+
+		const servers = yield RNUserDefaults.objectForKey(SERVERS);
+		const userCredentials = servers && servers.find(srv => srv[SERVER_URL] === server);
+		const userLogin = userCredentials && {
+			token: userCredentials[TOKEN]
+		};
+
+		if (user || userLogin) {
+			yield RocketChat.connect({ server, user: user || userLogin });
+			yield put(setUser(user || userLogin));
 			yield put(actions.appStart('inside'));
 		} else {
 			yield RocketChat.connect({ server });
@@ -58,6 +72,7 @@ const handleSelectServer = function* handleSelectServer({ server, version, fetch
 		// Return server version even when offline
 		yield put(selectServerSuccess(server, (serverInfo && serverInfo.version) || version));
 	} catch (e) {
+		yield put(selectServerFailure());
 		log('err_select_server', e);
 	}
 };
@@ -81,7 +96,17 @@ const handleServerRequest = function* handleServerRequest({ server }) {
 };
 
 const root = function* root() {
-	yield takeLatest(SERVER.SELECT_REQUEST, handleSelectServer);
 	yield takeLatest(SERVER.REQUEST, handleServerRequest);
+
+	while (true) {
+		const params = yield take(SERVER.SELECT_REQUEST);
+		const selectServerTask = yield fork(handleSelectServer, params);
+		yield race({
+			request: take(SERVER.SELECT_REQUEST),
+			success: take(SERVER.SELECT_SUCCESS),
+			failure: take(SERVER.SELECT_FAILURE)
+		});
+		yield cancel(selectServerTask);
+	}
 };
 export default root;

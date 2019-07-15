@@ -13,8 +13,9 @@ const removeListener = listener => listener.stop();
 let connectedListener;
 let disconnectedListener;
 let streamListener;
+let subServer;
 
-export default async function subscribeRooms() {
+export default function subscribeRooms() {
 	let timer = null;
 	const loop = () => {
 		if (timer) {
@@ -41,6 +42,10 @@ export default async function subscribeRooms() {
 	};
 
 	const handleStreamMessageReceived = protectedFunction((ddpMessage) => {
+		// check if the server from variable is the same as the js sdk client
+		if (this.sdk && this.sdk.client && this.sdk.client.host !== subServer) {
+			return;
+		}
 		if (ddpMessage.msg === 'added') {
 			return;
 		}
@@ -149,12 +154,15 @@ export default async function subscribeRooms() {
 	streamListener = this.sdk.onStreamData('stream-notify-user', handleStreamMessageReceived);
 
 	try {
-		await this.sdk.subscribeNotifyUser();
+		// set the server that started this task
+		subServer = this.sdk.client.host;
+		this.sdk.subscribeNotifyUser().catch(e => console.log(e));
+
+		return {
+			stop: () => stop()
+		};
 	} catch (e) {
 		log('err_subscribe_rooms', e);
+		return Promise.reject();
 	}
-
-	return {
-		stop: () => stop()
-	};
 }

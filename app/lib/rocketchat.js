@@ -1,6 +1,7 @@
 import { AsyncStorage, InteractionManager } from 'react-native';
 import semver from 'semver';
 import { Rocketchat as RocketchatClient } from '@rocket.chat/sdk';
+import RNUserDefaults from 'rn-user-defaults';
 
 import reduxStore from './createStore';
 import defaultSettings from '../constants/settings';
@@ -8,7 +9,6 @@ import messagesStatus from '../constants/messagesStatus';
 import database from './realm';
 import log from '../utils/log';
 import { isIOS, getBundleId } from '../utils/deviceInfo';
-import EventEmitter from '../utils/events';
 
 import {
 	setUser, setLoginServices, loginRequest, loginFailure, logout
@@ -24,7 +24,7 @@ import getSettings from './methods/getSettings';
 
 import getRooms from './methods/getRooms';
 import getPermissions from './methods/getPermissions';
-import getCustomEmoji from './methods/getCustomEmojis';
+import getCustomEmojis from './methods/getCustomEmojis';
 import getSlashCommands from './methods/getSlashCommands';
 import getRoles from './methods/getRoles';
 import canOpenRoom from './methods/canOpenRoom';
@@ -37,7 +37,7 @@ import sendMessage, { getMessage, sendMessageCall } from './methods/sendMessage'
 import { sendFileMessage, cancelUpload, isUploadActive } from './methods/sendFileMessage';
 
 import { getDeviceToken } from '../notifications/push';
-import { roomsRequest } from '../actions/rooms';
+import { SERVERS, SERVER_URL } from '../constants/userDefaults';
 
 const TOKEN_KEY = 'reactnativemeteor_usertoken';
 const SORT_PREFS_KEY = 'RC_SORT_PREFS_KEY';
@@ -60,9 +60,9 @@ const RocketChat = {
 	},
 	async getUserToken() {
 		try {
-			return await AsyncStorage.getItem(TOKEN_KEY);
+			return await RNUserDefaults.get(TOKEN_KEY);
 		} catch (error) {
-			console.warn(`AsyncStorage error: ${ error.message }`);
+			console.warn(`RNUserDefaults error: ${ error.message }`);
 		}
 	},
 	async getServerInfo(server) {
@@ -141,23 +141,6 @@ const RocketChat = {
 			};
 		}
 	},
-	async loginSuccess({ user }) {
-		EventEmitter.emit('connected');
-		reduxStore.dispatch(setUser(user));
-		reduxStore.dispatch(roomsRequest());
-
-		if (this.roomsSub) {
-			this.roomsSub.stop();
-		}
-		this.roomsSub = await this.subscribeRooms();
-
-		this.getPermissions();
-		this.getCustomEmoji();
-		this.getRoles();
-		this.getSlashCommands();
-		this.registerPushToken().catch(e => console.log(e));
-		this.getUserPresence();
-	},
 	connect({ server, user }) {
 		return new Promise((resolve) => {
 			database.setActiveDB(server);
@@ -165,6 +148,10 @@ const RocketChat = {
 
 			if (this.connectTimeout) {
 				clearTimeout(this.connectTimeout);
+			}
+
+			if (this.roomsSub) {
+				this.roomsSub.stop();
 			}
 
 			if (this.sdk) {
@@ -195,10 +182,10 @@ const RocketChat = {
 
 			this.sdk.onStreamData('connected', () => {
 				reduxStore.dispatch(connectSuccess());
-				const { isAuthenticated } = reduxStore.getState().login;
-				if (isAuthenticated) {
-					this.getUserPresence();
-				}
+				// const { isAuthenticated } = reduxStore.getState().login;
+				// if (isAuthenticated) {
+				// 	this.getUserPresence();
+				// }
 			});
 
 			this.sdk.onStreamData('close', () => {
@@ -336,10 +323,26 @@ const RocketChat = {
 		}
 		this.sdk = null;
 
+		try {
+			const servers = await RNUserDefaults.objectForKey(SERVERS);
+			await RNUserDefaults.setObjectForKey(SERVERS, servers && servers.filter(srv => srv[SERVER_URL] !== server));
+		} catch (error) {
+			console.log('logout_rn_user_defaults', error);
+		}
+
+		const { serversDB } = database.databases;
+
+		const userId = await RNUserDefaults.get(`${ TOKEN_KEY }-${ server }`);
+
+		serversDB.write(() => {
+			const user = serversDB.objectForPrimaryKey('user', userId);
+			serversDB.delete(user);
+		});
+
 		Promise.all([
-			AsyncStorage.removeItem('currentServer'),
-			AsyncStorage.removeItem(TOKEN_KEY),
-			AsyncStorage.removeItem(`${ TOKEN_KEY }-${ server }`)
+			RNUserDefaults.clear('currentServer'),
+			RNUserDefaults.clear(TOKEN_KEY),
+			RNUserDefaults.clear(`${ TOKEN_KEY }-${ server }`)
 		]).catch(error => console.log(error));
 
 		try {
@@ -349,7 +352,7 @@ const RocketChat = {
 		}
 	},
 	registerPushToken() {
-		return new Promise((resolve) => {
+		return new Promise(async(resolve) => {
 			const token = getDeviceToken();
 			if (token) {
 				const type = isIOS ? 'apn' : 'gcm';
@@ -358,8 +361,12 @@ const RocketChat = {
 					type,
 					appName: getBundleId
 				};
-				// RC 0.60.0
-				return this.sdk.post('push.token', data);
+				try {
+					// RC 0.60.0
+					await this.sdk.post('push.token', data);
+				} catch (error) {
+					console.log(error);
+				}
 			}
 			return resolve();
 		});
@@ -458,9 +465,12 @@ const RocketChat = {
 		// RC 0.59.0
 		return this.sdk.post('im.create', { username });
 	},
-	joinRoom(roomId) {
+	joinRoom(roomId, type) {
 		// TODO: join code
 		// RC 0.48.0
+		if (type === 'p') {
+			return this.sdk.methodCall('joinRoom', roomId);
+		}
 		return this.sdk.post('channels.join', { roomId });
 	},
 	sendFileMessage,
@@ -468,7 +478,7 @@ const RocketChat = {
 	isUploadActive,
 	getSettings,
 	getPermissions,
-	getCustomEmoji,
+	getCustomEmojis,
 	getSlashCommands,
 	getRoles,
 	parseSettings: settings => settings.reduce((ret, item) => {
@@ -572,6 +582,12 @@ const RocketChat = {
 		// RC 0.64.0
 		return this.sdk.post('rooms.favorite', { roomId, favorite });
 	},
+	toggleRead(read, roomId) {
+		if (read) {
+			return this.sdk.post('subscriptions.unread', { roomId });
+		}
+		return this.sdk.post('subscriptions.read', { rid: roomId });
+	},
 	getRoomMembers(rid, allUsers, skip = 0, limit = 10) {
 		// RC 0.42.0
 		return this.sdk.methodCall('getUsersOfRoom', rid, allUsers, { skip, limit });
@@ -629,6 +645,9 @@ const RocketChat = {
 		}
 		// RC 0.48.0
 		return this.sdk.post(`${ this.roomTypeToApiType(t) }.unarchive`, { roomId });
+	},
+	hideRoom(roomId, t) {
+		return this.sdk.post(`${ this.roomTypeToApiType(t) }.close`, { roomId });
 	},
 	saveRoomSettings(rid, params) {
 		// RC 0.55.0
@@ -824,41 +843,45 @@ const RocketChat = {
 			command, params, roomId, previewItem
 		});
 	},
-	async getUserPresence() {
-		const serverVersion = reduxStore.getState().server.version;
+	getUserPresence() {
+		return new Promise(async(resolve) => {
+			const serverVersion = reduxStore.getState().server.version;
 
-		// if server is lower than 1.1.0
-		if (semver.lt(semver.coerce(serverVersion), '1.1.0')) {
-			if (this.activeUsersSubTimeout) {
-				clearTimeout(this.activeUsersSubTimeout);
-				this.activeUsersSubTimeout = false;
-			}
-			this.activeUsersSubTimeout = setTimeout(() => {
-				this.sdk.subscribe('activeUsers');
-			}, 5000);
-		} else {
-			const params = {};
-			if (this.lastUserPresenceFetch) {
-				params.from = this.lastUserPresenceFetch.toISOString();
-			}
+			// if server is lower than 1.1.0
+			if (semver.lt(semver.coerce(serverVersion), '1.1.0')) {
+				if (this.activeUsersSubTimeout) {
+					clearTimeout(this.activeUsersSubTimeout);
+					this.activeUsersSubTimeout = false;
+				}
+				this.activeUsersSubTimeout = setTimeout(() => {
+					this.sdk.subscribe('activeUsers');
+				}, 5000);
+				return resolve();
+			} else {
+				const params = {};
+				// if (this.lastUserPresenceFetch) {
+				// 	params.from = this.lastUserPresenceFetch.toISOString();
+				// }
 
-			// RC 1.1.0
-			const result = await this.sdk.get('users.presence', params);
-			if (result.success) {
-				this.lastUserPresenceFetch = new Date();
-				database.memoryDatabase.write(() => {
-					result.users.forEach((item) => {
-						try {
-							item.id = item._id;
-							database.memoryDatabase.create('activeUsers', item, true);
-						} catch (error) {
-							console.log(error);
-						}
+				// RC 1.1.0
+				const result = await this.sdk.get('users.presence', params);
+				if (result.success) {
+					// this.lastUserPresenceFetch = new Date();
+					database.memoryDatabase.write(() => {
+						result.users.forEach((item) => {
+							try {
+								item.id = item._id;
+								database.memoryDatabase.create('activeUsers', item, true);
+							} catch (error) {
+								console.log(error);
+							}
+						});
 					});
-				});
-				this.sdk.subscribe('stream-notify-logged', 'user-status');
+					this.sdk.subscribe('stream-notify-logged', 'user-status');
+					return resolve();
+				}
 			}
-		}
+		});
 	},
 	getDirectory({
 		query, count, offset, sort
@@ -867,6 +890,31 @@ const RocketChat = {
 		return this.sdk.get('directory', {
 			query, count, offset, sort
 		});
+	},
+	canAutoTranslate() {
+		try {
+			const AutoTranslate_Enabled = reduxStore.getState().settings && reduxStore.getState().settings.AutoTranslate_Enabled;
+			if (!AutoTranslate_Enabled) {
+				return false;
+			}
+			const autoTranslatePermission = database.objectForPrimaryKey('permissions', 'auto-translate');
+			const userRoles = (reduxStore.getState().login.user && reduxStore.getState().login.user.roles) || [];
+			return autoTranslatePermission.roles.some(role => userRoles.includes(role));
+		} catch (error) {
+			log('err_can_auto_translate', error);
+			return false;
+		}
+	},
+	saveAutoTranslate({
+		rid, field, value, options
+	}) {
+		return this.sdk.methodCall('autoTranslate.saveSettings', rid, field, value, options);
+	},
+	getSupportedLanguagesAutoTranslate() {
+		return this.sdk.methodCall('autoTranslate.getSupportedLanguages', 'en');
+	},
+	translateMessage(message, targetLanguage) {
+		return this.sdk.methodCall('autoTranslate.translateMessage', message, targetLanguage);
 	}
 };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-	View, FlatList, BackHandler, ActivityIndicator, Text, ScrollView, Keyboard, LayoutAnimation, InteractionManager
+	View, FlatList, BackHandler, ActivityIndicator, Text, ScrollView, Keyboard, LayoutAnimation, InteractionManager, Dimensions
 } from 'react-native';
 import { connect } from 'react-redux';
 import { isEqual } from 'lodash';
@@ -28,6 +28,7 @@ import RoomsListHeaderView from './Header';
 import { DrawerButton, CustomHeaderButtons, Item } from '../../containers/HeaderButton';
 import StatusBar from '../../containers/StatusBar';
 import ListHeader from './ListHeader';
+import { selectServerRequest as selectServerRequestAction } from '../../actions/server';
 
 const SCROLL_OFFSET = 56;
 
@@ -37,6 +38,7 @@ const keyExtractor = item => item.rid;
 
 @connect(state => ({
 	userId: state.login.user && state.login.user.id,
+	isAuthenticated: state.login.isAuthenticated,
 	server: state.server.server,
 	baseUrl: state.settings.baseUrl || state.server ? state.server.server : '',
 	searchText: state.rooms.searchText,
@@ -54,7 +56,8 @@ const keyExtractor = item => item.rid;
 	openSearchHeader: () => dispatch(openSearchHeaderAction()),
 	closeSearchHeader: () => dispatch(closeSearchHeaderAction()),
 	appStart: () => dispatch(appStartAction()),
-	roomsRequest: () => dispatch(roomsRequestAction())
+	roomsRequest: () => dispatch(roomsRequestAction()),
+	selectServerRequest: server => dispatch(selectServerRequestAction(server))
 }))
 export default class RoomsListView extends React.Component {
 	static navigationOptions = ({ navigation }) => {
@@ -106,7 +109,8 @@ export default class RoomsListView extends React.Component {
 		openSearchHeader: PropTypes.func,
 		closeSearchHeader: PropTypes.func,
 		appStart: PropTypes.func,
-		roomsRequest: PropTypes.func
+		roomsRequest: PropTypes.func,
+		isAuthenticated: PropTypes.bool
 	}
 
 	constructor(props) {
@@ -114,6 +118,7 @@ export default class RoomsListView extends React.Component {
 		console.time(`${ this.constructor.name } init`);
 		console.time(`${ this.constructor.name } mount`);
 
+		const { width } = Dimensions.get('window');
 		this.data = [];
 		this.state = {
 			searching: false,
@@ -126,7 +131,8 @@ export default class RoomsListView extends React.Component {
 			channels: [],
 			privateGroup: [],
 			direct: [],
-			livechat: []
+			livechat: [],
+			width
 		};
 		Orientation.unlockAllOrientations();
 		this.didFocusListener = props.navigation.addListener('didFocus', () => BackHandler.addEventListener('hardwareBackPress', this.handleBackPress));
@@ -141,6 +147,7 @@ export default class RoomsListView extends React.Component {
 			initSearchingAndroid: this.initSearchingAndroid,
 			cancelSearchingAndroid: this.cancelSearchingAndroid
 		});
+		Dimensions.addEventListener('change', this.onDimensionsChange);
 		console.timeEnd(`${ this.constructor.name } mount`);
 	}
 
@@ -165,11 +172,15 @@ export default class RoomsListView extends React.Component {
 			return true;
 		}
 
-		const { loading, searching } = this.state;
+		const { loading, searching, width } = this.state;
 		if (nextState.loading !== loading) {
 			return true;
 		}
 		if (nextState.searching !== searching) {
+			return true;
+		}
+
+		if (nextState.width !== width) {
 			return true;
 		}
 
@@ -182,7 +193,7 @@ export default class RoomsListView extends React.Component {
 
 	componentDidUpdate(prevProps) {
 		const {
-			sortBy, groupByType, showFavorites, showUnread, appState, roomsRequest
+			sortBy, groupByType, showFavorites, showUnread, appState, roomsRequest, isAuthenticated
 		} = this.props;
 
 		if (!(
@@ -192,7 +203,7 @@ export default class RoomsListView extends React.Component {
 			&& (prevProps.showUnread === showUnread)
 		)) {
 			this.getSubscriptions();
-		} else if (appState === 'foreground' && appState !== prevProps.appState) {
+		} else if (appState === 'foreground' && appState !== prevProps.appState && isAuthenticated) {
 			roomsRequest();
 		}
 	}
@@ -213,8 +224,11 @@ export default class RoomsListView extends React.Component {
 		if (this.willBlurListener && this.willBlurListener.remove) {
 			this.willBlurListener.remove();
 		}
+		Dimensions.removeEventListener('change', this.onDimensionsChange);
 		console.countReset(`${ this.constructor.name }.render calls`);
 	}
+
+	onDimensionsChange = ({ window: { width } }) => this.setState({ width })
 
 	// eslint-disable-next-line react/sort-comp
 	internalSetState = (...args) => {
@@ -376,6 +390,44 @@ export default class RoomsListView extends React.Component {
 		}, 100);
 	}
 
+	toggleFav = async(rid, favorite) => {
+		try {
+			await RocketChat.toggleFavorite(rid, !favorite);
+		} catch (e) {
+			log('error_toggle_favorite', e);
+		}
+	}
+
+	toggleRead = async(rid, isRead) => {
+		try {
+			const result = await RocketChat.toggleRead(isRead, rid);
+			if (result.success) {
+				database.write(() => {
+					const sub = database.objects('subscriptions').filtered('rid == $0', rid)[0];
+					if (sub) {
+						sub.alert = isRead;
+					}
+				});
+			}
+		} catch (e) {
+			log('error_toggle_read', e);
+		}
+	}
+
+	hideChannel = async(rid, type) => {
+		try {
+			const result = await RocketChat.hideRoom(rid, type);
+			if (result.success) {
+				database.write(() => {
+					const sub = database.objects('subscriptions').filtered('rid == $0', rid)[0];
+					database.delete(sub);
+				});
+			}
+		} catch (e) {
+			log('error_hide_channel', e);
+		}
+	}
+
 	goDirectory = () => {
 		const { navigation } = this.props;
 		navigation.navigate('DirectoryView');
@@ -397,7 +449,14 @@ export default class RoomsListView extends React.Component {
 		);
 	}
 
+	getIsRead = (item) => {
+		let isUnread = (item.archived !== true && item.open === true); // item is not archived and not opened
+		isUnread = isUnread && (item.unread > 0 || item.alert === true); // either its unread count > 0 or its alert
+		return !isUnread;
+	}
+
 	renderItem = ({ item }) => {
+		const { width } = this.state;
 		const {
 			userId, baseUrl, StoreLastMessage
 		} = this.props;
@@ -409,19 +468,25 @@ export default class RoomsListView extends React.Component {
 					alert={item.alert}
 					unread={item.unread}
 					userMentions={item.userMentions}
+					isRead={this.getIsRead(item)}
 					favorite={item.f}
 					lastMessage={item.lastMessage ? JSON.parse(JSON.stringify(item.lastMessage)) : null}
 					name={this.getRoomTitle(item)}
 					_updatedAt={item.roomUpdatedAt}
 					key={item._id}
 					id={id}
+					rid={item.rid}
 					type={item.t}
 					baseUrl={baseUrl}
 					prid={item.prid}
 					showLastMessage={StoreLastMessage}
 					onPress={() => this._onPressItem(item)}
 					testID={`rooms-list-view-item-${ item.name }`}
+					width={width}
 					height={ROW_HEIGHT}
+					toggleFav={this.toggleFav}
+					toggleRead={this.toggleRead}
+					hideChannel={this.hideChannel}
 				/>
 			);
 		}
