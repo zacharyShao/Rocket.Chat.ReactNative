@@ -8,7 +8,6 @@ import equal from 'deep-equal';
 import { withNavigation } from 'react-navigation';
 import RNUserDefaults from 'rn-user-defaults';
 
-import { toggleServerDropdown as toggleServerDropdownAction } from '../../actions/rooms';
 import { selectServerRequest as selectServerRequestAction } from '../../actions/server';
 import { appStart as appStartAction } from '../../actions';
 import styles from './styles';
@@ -26,7 +25,6 @@ const ANIMATION_DURATION = 200;
 	closeServerDropdown: state.rooms.closeServerDropdown,
 	server: state.server.server
 }), dispatch => ({
-	toggleServerDropdown: () => dispatch(toggleServerDropdownAction()),
 	selectServerRequest: server => dispatch(selectServerRequestAction(server)),
 	appStart: () => dispatch(appStartAction('outside'))
 }))
