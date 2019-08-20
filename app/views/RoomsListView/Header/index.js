@@ -5,15 +5,7 @@ import { connect } from 'react-redux';
 import { setSearch as setSearchAction } from '../../../actions/rooms';
 import Header from './Header';
 
-@connect(state => ({
-	showSearchHeader: state.rooms.showSearchHeader,
-	connecting: state.meteor.connecting || state.server.loading,
-	isFetching: state.rooms.isFetching,
-	serverName: state.settings.Site_Name
-}), dispatch => ({
-	setSearch: searchText => dispatch(setSearchAction(searchText))
-}))
-export default class RoomsListHeaderView extends PureComponent {
+class RoomsListHeaderView extends PureComponent {
 	static propTypes = {
 		showSearchHeader: PropTypes.bool,
 		serverName: PropTypes.string,
@@ -22,22 +14,9 @@ export default class RoomsListHeaderView extends PureComponent {
 		setSearch: PropTypes.func
 	}
 
-	componentDidUpdate(prevProps) {
-		const { showSearchHeader } = this.props;
-		if (showSearchHeader && prevProps.showSearchHeader !== showSearchHeader) {
-			setTimeout(() => {
-				this.searchInputRef.focus();
-			}, 300);
-		}
-	}
-
 	onSearchChangeText = (text) => {
 		const { setSearch } = this.props;
 		setSearch(text.trim());
-	}
-
-	setSearchInputRef = (ref) => {
-		this.searchInputRef = ref;
 	}
 
 	render() {
@@ -51,9 +30,23 @@ export default class RoomsListHeaderView extends PureComponent {
 				showSearchHeader={showSearchHeader}
 				connecting={connecting}
 				isFetching={isFetching}
-				setSearchInputRef={this.setSearchInputRef}
 				onSearchChangeText={text => this.onSearchChangeText(text)}
 			/>
 		);
 	}
 }
+
+const mapStateToProps = state => ({
+	showServerDropdown: state.rooms.showServerDropdown,
+	showSortDropdown: state.rooms.showSortDropdown,
+	showSearchHeader: state.rooms.showSearchHeader,
+	connecting: state.meteor.connecting || state.server.loading,
+	isFetching: state.rooms.isFetching,
+	serverName: state.settings.Site_Name
+});
+
+const mapDispatchtoProps = dispatch => ({
+	setSearch: searchText => dispatch(setSearchAction(searchText))
+});
+
+export default connect(mapStateToProps, mapDispatchtoProps)(RoomsListHeaderView);
