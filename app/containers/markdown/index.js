@@ -64,7 +64,8 @@ export default class Markdown extends PureComponent {
 		useMarkdown: PropTypes.bool,
 		channels: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
 		mentions: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
-		navToRoomInfo: PropTypes.func
+		navToRoomInfo: PropTypes.func,
+		style: PropTypes.any
 	};
 
 	constructor(props) {
@@ -130,12 +131,13 @@ export default class Markdown extends PureComponent {
 	};
 
 	renderText = ({ context, literal }) => {
-		const { numberOfLines } = this.props;
+		const { numberOfLines, style = {} } = this.props;
 		return (
 			<Text
 				style={[
 					this.isMessageContainsOnlyEmoji ? styles.textBig : styles.text,
-					...context.map(type => styles[type])
+					...context.map(type => styles[type]),
+					style
 				]}
 				numberOfLines={numberOfLines}
 			>

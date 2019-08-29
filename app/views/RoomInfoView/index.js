@@ -16,6 +16,7 @@ import I18n from '../../i18n';
 import { CustomHeaderButtons, Item } from '../../containers/HeaderButton';
 import StatusBar from '../../containers/StatusBar';
 import log from '../../utils/log';
+import Markdown from '../../containers/markdown';
 
 const PERMISSION_EDIT_ROOM = 'edit-room';
 
@@ -128,11 +129,10 @@ class RoomInfoView extends React.Component {
 	renderItem = (key, room) => (
 		<View style={styles.item}>
 			<Text style={styles.itemLabel}>{I18n.t(camelize(key))}</Text>
-			<Text
+			<Markdown
+				msg={room[key] ? room[key] : I18n.t(`No_${ key }_provided`)}
 				style={[styles.itemContent, !room[key] && styles.itemContent__empty]}
-				testID={`room-info-view-${ key }`}
-			>{ room[key] ? room[key] : I18n.t(`No_${ key }_provided`) }
-			</Text>
+			/>
 		</View>
 	);
 
