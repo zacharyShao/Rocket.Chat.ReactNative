@@ -132,6 +132,7 @@ class RoomInfoView extends React.Component {
 			<Markdown
 				msg={room[key] ? room[key] : I18n.t(`No_${ key }_provided`)}
 				style={[styles.itemContent, !room[key] && styles.itemContent__empty]}
+				testID={`room-info-view-${ key }`}
 			/>
 		</View>
 	);

@@ -213,6 +213,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -223,6 +226,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -233,6 +237,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -443,6 +448,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       numberOfLines={0}
                       style={
                         Array [
@@ -453,6 +461,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -463,6 +472,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Text>
@@ -673,6 +683,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="..."
                       numberOfLines={0}
                       style={
                         Array [
@@ -683,6 +696,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -693,6 +707,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       ...
                     </Text>
@@ -885,6 +900,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Different user"
                       numberOfLines={0}
                       style={
                         Array [
@@ -895,6 +913,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -905,6 +924,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Different user
                     </Text>
@@ -979,6 +999,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="This is the third message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -989,6 +1012,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -999,6 +1023,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       This is the third message
                     </Text>
@@ -1073,6 +1098,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="This is the second message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -1083,6 +1111,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -1093,6 +1122,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       This is the second message
                     </Text>
@@ -1285,6 +1315,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="This is the first message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -1295,6 +1328,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -1305,6 +1339,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       This is the first message
                     </Text>
@@ -1397,6 +1432,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -1407,6 +1445,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -1417,6 +1456,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -1641,6 +1681,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -1651,6 +1694,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -1661,6 +1705,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -1867,6 +1912,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -1877,6 +1925,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -1887,6 +1936,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -2097,6 +2147,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -2107,6 +2160,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -2117,6 +2171,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -2352,6 +2407,9 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="> Testing block quote"
                           numberOfLines={0}
                           style={
                             Array [
@@ -2362,6 +2420,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               Object {
                                 "alignItems": "flex-start",
@@ -2373,6 +2432,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Testing block quote
                         </Text>
@@ -2592,6 +2652,10 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="> Testing block quote
+Testing block quote"
                           numberOfLines={0}
                           style={
                             Array [
@@ -2602,6 +2666,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               Object {
                                 "alignItems": "flex-start",
@@ -2613,6 +2678,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Testing block quote
                         </Text>
@@ -2633,6 +2699,10 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="> Testing block quote
+Testing block quote"
                       numberOfLines={0}
                       style={
                         Array [
@@ -2643,6 +2713,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -2653,6 +2724,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Testing block quote
                     </Text>
@@ -2895,6 +2967,11 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="* Dogs
+  * cats
+  - cats"
                           numberOfLines={0}
                           style={
                             Array [
@@ -2905,6 +2982,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               undefined,
                               Object {
@@ -2917,6 +2995,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Dogs
                         </Text>
@@ -2967,6 +3046,11 @@ exports[`Storyshots Message list 1`] = `
                             numberOfLines={0}
                           >
                             <Text
+                              baseUrl="https://open.rocket.chat"
+                              getCustomEmoji={[Function]}
+                              msg="* Dogs
+  * cats
+  - cats"
                               numberOfLines={0}
                               style={
                                 Array [
@@ -2977,6 +3061,7 @@ exports[`Storyshots Message list 1`] = `
                                     "fontSize": 16,
                                     "fontWeight": "400",
                                   },
+                                  Object {},
                                   undefined,
                                   undefined,
                                   undefined,
@@ -2991,6 +3076,7 @@ exports[`Storyshots Message list 1`] = `
                                   },
                                 ]
                               }
+                              username="diego.mello"
                             >
                               cats
                             </Text>
@@ -3043,6 +3129,11 @@ exports[`Storyshots Message list 1`] = `
                             numberOfLines={0}
                           >
                             <Text
+                              baseUrl="https://open.rocket.chat"
+                              getCustomEmoji={[Function]}
+                              msg="* Dogs
+  * cats
+  - cats"
                               numberOfLines={0}
                               style={
                                 Array [
@@ -3053,6 +3144,7 @@ exports[`Storyshots Message list 1`] = `
                                     "fontSize": 16,
                                     "fontWeight": "400",
                                   },
+                                  Object {},
                                   undefined,
                                   undefined,
                                   undefined,
@@ -3067,6 +3159,7 @@ exports[`Storyshots Message list 1`] = `
                                   },
                                 ]
                               }
+                              username="diego.mello"
                             >
                               cats
                             </Text>
@@ -3313,6 +3406,10 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="1. Dogs 
+ 2. Cats"
                           numberOfLines={0}
                           style={
                             Array [
@@ -3323,6 +3420,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               undefined,
                               Object {
@@ -3335,6 +3433,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Dogs
                         </Text>
@@ -3387,6 +3486,10 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="1. Dogs 
+ 2. Cats"
                           numberOfLines={0}
                           style={
                             Array [
@@ -3397,6 +3500,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               undefined,
                               Object {
@@ -3409,6 +3513,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Cats
                         </Text>
@@ -3653,6 +3758,9 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="1. Dogs"
                           numberOfLines={0}
                           style={
                             Array [
@@ -3663,6 +3771,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               undefined,
                               Object {
@@ -3675,6 +3784,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Dogs
                         </Text>
@@ -3783,6 +3893,9 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="2. Cats"
                           numberOfLines={0}
                           style={
                             Array [
@@ -3793,6 +3906,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               undefined,
                               Object {
@@ -3805,6 +3919,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Cats
                         </Text>
@@ -4017,6 +4132,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4027,6 +4145,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4037,6 +4156,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -4247,6 +4367,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4257,6 +4380,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4267,6 +4391,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -4492,6 +4617,32 @@ exports[`Storyshots Message list 1`] = `
                       @rocket.cat
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      channels={
+                        Array [
+                          Object {
+                            "name": "general",
+                          },
+                        ]
+                      }
+                      getCustomEmoji={[Function]}
+                      mentions={
+                        Array [
+                          Object {
+                            "username": "rocket.cat",
+                          },
+                          Object {
+                            "username": "diego.mello",
+                          },
+                          Object {
+                            "username": "all",
+                          },
+                          Object {
+                            "username": "here",
+                          },
+                        ]
+                      }
+                      msg="@rocket.cat @diego.mello @all @here #general"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4502,6 +4653,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4512,6 +4664,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -4531,6 +4684,32 @@ exports[`Storyshots Message list 1`] = `
                       @diego.mello
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      channels={
+                        Array [
+                          Object {
+                            "name": "general",
+                          },
+                        ]
+                      }
+                      getCustomEmoji={[Function]}
+                      mentions={
+                        Array [
+                          Object {
+                            "username": "rocket.cat",
+                          },
+                          Object {
+                            "username": "diego.mello",
+                          },
+                          Object {
+                            "username": "all",
+                          },
+                          Object {
+                            "username": "here",
+                          },
+                        ]
+                      }
+                      msg="@rocket.cat @diego.mello @all @here #general"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4541,6 +4720,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4551,6 +4731,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -4570,6 +4751,32 @@ exports[`Storyshots Message list 1`] = `
                       @all
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      channels={
+                        Array [
+                          Object {
+                            "name": "general",
+                          },
+                        ]
+                      }
+                      getCustomEmoji={[Function]}
+                      mentions={
+                        Array [
+                          Object {
+                            "username": "rocket.cat",
+                          },
+                          Object {
+                            "username": "diego.mello",
+                          },
+                          Object {
+                            "username": "all",
+                          },
+                          Object {
+                            "username": "here",
+                          },
+                        ]
+                      }
+                      msg="@rocket.cat @diego.mello @all @here #general"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4580,6 +4787,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4590,6 +4798,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -4609,6 +4818,32 @@ exports[`Storyshots Message list 1`] = `
                       @here
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      channels={
+                        Array [
+                          Object {
+                            "name": "general",
+                          },
+                        ]
+                      }
+                      getCustomEmoji={[Function]}
+                      mentions={
+                        Array [
+                          Object {
+                            "username": "rocket.cat",
+                          },
+                          Object {
+                            "username": "diego.mello",
+                          },
+                          Object {
+                            "username": "all",
+                          },
+                          Object {
+                            "username": "here",
+                          },
+                        ]
+                      }
+                      msg="@rocket.cat @diego.mello @all @here #general"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4619,6 +4854,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4629,6 +4865,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -4854,6 +5091,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="👊🤙👏"
                       numberOfLines={0}
                       style={
                         Array [
@@ -4864,6 +5104,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 30,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -4874,6 +5115,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       👊🤙👏
                     </Text>
@@ -5084,6 +5326,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="👏"
                       numberOfLines={0}
                       style={
                         Array [
@@ -5094,6 +5339,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 30,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -5104,6 +5350,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       👏
                     </Text>
@@ -5327,6 +5574,9 @@ exports[`Storyshots Message list 1`] = `
                       }
                     />
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg=":react_rocket: :nyan_rocket: :marioparty:"
                       numberOfLines={0}
                       style={
                         Array [
@@ -5337,6 +5587,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 30,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -5347,6 +5598,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -5364,6 +5616,9 @@ exports[`Storyshots Message list 1`] = `
                       }
                     />
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg=":react_rocket: :nyan_rocket: :marioparty:"
                       numberOfLines={0}
                       style={
                         Array [
@@ -5374,6 +5629,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 30,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -5384,6 +5640,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -5826,6 +6083,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="🤙:react_rocket:"
                       numberOfLines={0}
                       style={
                         Array [
@@ -5836,6 +6096,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 30,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -5846,6 +6107,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       🤙
                     </Text>
@@ -6069,6 +6331,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="🤙:react_rocket:🤙🤙"
                       numberOfLines={0}
                       style={
                         Array [
@@ -6079,6 +6344,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -6089,6 +6355,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       🤙
                     </Text>
@@ -6106,6 +6373,9 @@ exports[`Storyshots Message list 1`] = `
                       }
                     />
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="🤙:react_rocket:🤙🤙"
                       numberOfLines={0}
                       style={
                         Array [
@@ -6116,6 +6386,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -6126,6 +6397,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       🤙🤙
                     </Text>
@@ -6336,6 +6608,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Testing"
                       numberOfLines={0}
                       style={
                         Array [
@@ -6346,6 +6621,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -6356,6 +6632,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Testing
                     </Text>
@@ -6566,6 +6843,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Reactions"
                       numberOfLines={0}
                       style={
                         Array [
@@ -6576,6 +6856,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -6586,6 +6867,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Reactions
                     </Text>
@@ -7096,6 +7378,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Multiple Reactions"
                       numberOfLines={0}
                       style={
                         Array [
@@ -7106,6 +7391,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -7116,6 +7402,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Multiple Reactions
                     </Text>
@@ -7999,6 +8286,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Fourth message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -8009,6 +8299,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -8019,6 +8310,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Fourth message
                     </Text>
@@ -8211,6 +8503,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Third message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -8221,6 +8516,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -8231,6 +8527,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Third message
                     </Text>
@@ -8423,6 +8720,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Second message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -8433,6 +8733,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -8443,6 +8744,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Second message
                     </Text>
@@ -8635,6 +8937,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="First message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -8645,6 +8950,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -8655,6 +8961,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       First message
                     </Text>
@@ -8865,6 +9172,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Fourth message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -8875,6 +9185,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -8885,6 +9196,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Fourth message
                     </Text>
@@ -9142,6 +9454,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Third message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -9152,6 +9467,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -9162,6 +9478,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Third message
                     </Text>
@@ -9283,6 +9600,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Second message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -9293,6 +9613,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -9303,6 +9624,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Second message
                     </Text>
@@ -9495,6 +9817,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Second message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -9505,6 +9830,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -9515,6 +9841,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Second message
                     </Text>
@@ -9746,6 +10073,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="First message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -9756,6 +10086,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -9766,6 +10097,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       First message
                     </Text>
@@ -10029,6 +10361,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="This is a description"
                         style={
                           Array [
                             Object {
@@ -10038,6 +10373,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -10048,6 +10384,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         This is a description
                       </Text>
@@ -10294,6 +10631,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="This is a description :nyan_rocket:"
                         style={
                           Array [
                             Object {
@@ -10303,6 +10643,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -10313,6 +10654,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         This is a description 
                       </Text>
@@ -10582,6 +10924,9 @@ exports[`Storyshots Message list 1`] = `
               >
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="This is a description :nyan_rocket:"
                     style={
                       Array [
                         Object {
@@ -10591,6 +10936,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "alignItems": "flex-start",
                           "flexDirection": "row",
@@ -10601,6 +10947,7 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     This is a description 
                   </Text>
@@ -11237,6 +11584,9 @@ exports[`Storyshots Message list 1`] = `
               >
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="This is a description :nyan_rocket:"
                     style={
                       Array [
                         Object {
@@ -11246,6 +11596,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "alignItems": "flex-start",
                           "flexDirection": "row",
@@ -11256,6 +11607,7 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     This is a description 
                   </Text>
@@ -11342,6 +11694,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="First message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -11352,6 +11707,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -11362,6 +11718,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       First message
                     </Text>
@@ -11630,6 +11987,9 @@ exports[`Storyshots Message list 1`] = `
               >
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="This is a description"
                     style={
                       Array [
                         Object {
@@ -11639,6 +11999,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "alignItems": "flex-start",
                           "flexDirection": "row",
@@ -11649,6 +12010,7 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     This is a description
                   </Text>
@@ -12360,6 +12722,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -12370,6 +12735,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -12380,10 +12746,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -12394,6 +12764,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -12404,10 +12775,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -12418,6 +12793,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -12428,6 +12804,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -12519,6 +12896,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="How are you?"
                         style={
                           Array [
                             Object {
@@ -12528,6 +12908,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -12538,6 +12919,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         How are you?
                       </Text>
@@ -12731,6 +13113,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -12741,6 +13126,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -12751,10 +13137,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -12765,6 +13155,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -12775,10 +13166,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -12789,6 +13184,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -12799,6 +13195,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -12890,6 +13287,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="How are you? :nyan_rocket:"
                         style={
                           Array [
                             Object {
@@ -12899,6 +13299,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -12909,6 +13310,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         How are you? 
                       </Text>
@@ -13133,6 +13535,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13143,6 +13548,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13153,10 +13559,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13167,6 +13577,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13177,10 +13588,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13191,6 +13606,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13201,6 +13617,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -13275,6 +13692,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13285,6 +13705,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13295,10 +13716,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13309,6 +13734,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13319,10 +13745,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13333,6 +13763,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13343,6 +13774,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -13535,6 +13967,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13545,6 +13980,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13555,10 +13991,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13569,6 +14009,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13579,10 +14020,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13593,6 +14038,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13603,6 +14049,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -13699,6 +14146,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13709,6 +14159,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13719,10 +14170,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13733,6 +14188,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13743,10 +14199,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={0}
                       style={
                         Array [
@@ -13757,6 +14217,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -13767,6 +14228,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -13999,6 +14461,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="How are you?"
                       numberOfLines={0}
                       style={
                         Array [
@@ -14009,6 +14474,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14019,6 +14485,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       How are you?
                     </Text>
@@ -14292,6 +14759,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="How are you?"
                       numberOfLines={0}
                       style={
                         Array [
@@ -14302,6 +14772,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14312,6 +14783,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       How are you?
                     </Text>
@@ -14615,6 +15087,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -14625,6 +15100,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14635,10 +15111,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -14649,6 +15130,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14659,10 +15141,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -14673,6 +15160,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14683,6 +15171,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -14905,6 +15395,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -14915,6 +15408,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14925,10 +15419,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -14939,6 +15438,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14949,10 +15449,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -14963,6 +15468,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -14973,6 +15479,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -15195,6 +15703,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -15205,6 +15716,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15215,10 +15727,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -15229,6 +15746,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15239,10 +15757,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -15253,6 +15776,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15263,6 +15787,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -15485,6 +16011,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -15495,6 +16024,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15505,10 +16035,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -15519,6 +16054,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15529,10 +16065,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -15543,6 +16084,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15553,6 +16095,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -15775,6 +16319,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       numberOfLines={1}
                       style={
                         Array [
@@ -15785,6 +16332,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -15795,6 +16343,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Text>
@@ -16017,6 +16567,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       numberOfLines={1}
                       style={
                         Array [
@@ -16027,6 +16580,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -16037,6 +16591,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Text>
@@ -16464,6 +17020,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="How are you?"
                       numberOfLines={0}
                       style={
                         Array [
@@ -16474,6 +17033,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -16484,6 +17044,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       How are you?
                     </Text>
@@ -16712,6 +17273,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -16722,6 +17286,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -16732,10 +17297,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -16746,6 +17316,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -16756,10 +17327,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -16770,6 +17346,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -16780,6 +17357,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -16927,6 +17506,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       numberOfLines={1}
                       style={
                         Array [
@@ -16937,6 +17519,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -16947,6 +17530,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Text>
@@ -17329,6 +17914,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -17339,6 +17927,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -17349,10 +17938,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       I
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -17363,6 +17957,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -17373,10 +17968,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       'm fine
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="I'm fine!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -17387,6 +17987,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -17397,6 +17998,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -17544,6 +18147,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Cool!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -17554,6 +18160,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -17564,10 +18171,15 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       Cool
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Cool!"
                       numberOfLines={1}
                       style={
                         Array [
@@ -17578,6 +18190,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -17588,6 +18201,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       !
                     </Text>
@@ -17735,6 +18350,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={1}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       numberOfLines={1}
                       style={
                         Array [
@@ -17745,6 +18363,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -17755,6 +18374,8 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      tmid="1"
+                      username="diego.mello"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Text>
@@ -19635,6 +20256,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message :nyan_rocket:"
                       numberOfLines={0}
                       style={
                         Array [
@@ -19645,6 +20269,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -19655,6 +20280,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message 
                     </Text>
@@ -20063,6 +20689,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -20073,6 +20702,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -20083,6 +20713,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -20174,6 +20805,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Custom fields"
                         style={
                           Array [
                             Object {
@@ -20183,6 +20817,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -20193,6 +20828,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         Custom fields
                       </Text>
@@ -20614,6 +21250,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -20624,6 +21263,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -20634,6 +21274,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -20725,6 +21366,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Custom fields"
                         style={
                           Array [
                             Object {
@@ -20734,6 +21378,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -20744,6 +21389,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         Custom fields
                       </Text>
@@ -20926,6 +21572,9 @@ exports[`Storyshots Message list 1`] = `
                   >
                     <Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Custom fields 2"
                         style={
                           Array [
                             Object {
@@ -20935,6 +21584,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -20945,6 +21595,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         Custom fields 2
                       </Text>
@@ -21246,6 +21897,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Broadcasted message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -21256,6 +21910,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -21266,6 +21921,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Broadcasted message
                     </Text>
@@ -21555,6 +22211,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="This message is inside an archived room"
                       numberOfLines={0}
                       style={
                         Array [
@@ -21565,6 +22224,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -21575,6 +22235,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       This message is inside an archived room
                     </Text>
@@ -21816,6 +22477,9 @@ exports[`Storyshots Message list 1`] = `
                   numberOfLines={0}
                 >
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="This message has error"
                     numberOfLines={0}
                     style={
                       Array [
@@ -21826,6 +22490,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "alignItems": "flex-start",
                           "flexDirection": "row",
@@ -21836,6 +22501,7 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     This message has error
                   </Text>
@@ -21990,6 +22656,9 @@ exports[`Storyshots Message list 1`] = `
                   numberOfLines={0}
                 >
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="This message has error too"
                     numberOfLines={0}
                     style={
                       Array [
@@ -22000,6 +22669,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "alignItems": "flex-start",
                           "flexDirection": "row",
@@ -22010,6 +22680,7 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     This message has error too
                   </Text>
@@ -22225,6 +22896,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Temp message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -22235,6 +22909,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -22245,6 +22920,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Temp message
                     </Text>
@@ -22455,6 +23131,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message being edited"
                       numberOfLines={0}
                       style={
                         Array [
@@ -22465,6 +23144,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -22475,6 +23155,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message being edited
                     </Text>
@@ -25075,6 +25756,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Message"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25085,6 +25769,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25095,6 +25780,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Message
                     </Text>
@@ -25305,6 +25991,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25315,6 +26004,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25325,10 +26015,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Italic with single 
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25339,6 +26033,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25352,10 +26047,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       underscore
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25366,6 +26065,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25376,10 +26076,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        or double 
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25390,6 +26094,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25403,10 +26108,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       underscores
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25417,6 +26126,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25427,10 +26137,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       . Bold with single 
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25441,6 +26155,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25454,10 +26169,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       asterisk
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25468,6 +26187,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25478,10 +26198,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        or double 
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25492,6 +26216,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25505,10 +26230,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       asterisks
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25519,6 +26248,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25529,10 +26259,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       . Strikethrough with single 
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25543,6 +26277,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25556,10 +26291,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Strikethrough
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25570,6 +26309,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25580,10 +26320,14 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        or double 
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Italic with single _underscore_ or double __underscores__. Bold with single *asterisk* or double **asterisks**. Strikethrough with single ~Strikethrough~ or double ~~Strikethrough~~"
                       numberOfLines={0}
                       style={
                         Array [
@@ -25594,6 +26338,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -25610,6 +26355,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Strikethrough
                     </Text>
@@ -25809,6 +26555,14 @@ exports[`Storyshots Message list 1`] = `
               <View>
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6"
                     numberOfLines={0}
                     style={
                       Array [
@@ -25819,6 +26573,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "backgroundColor": "transparent",
                           "fontFamily": "System",
@@ -25827,12 +26582,21 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     H1
                   </Text>
                 </Text>
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6"
                     numberOfLines={0}
                     style={
                       Array [
@@ -25843,6 +26607,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "backgroundColor": "transparent",
                           "fontFamily": "System",
@@ -25851,12 +26616,21 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     H2
                   </Text>
                 </Text>
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6"
                     numberOfLines={0}
                     style={
                       Array [
@@ -25867,6 +26641,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "backgroundColor": "transparent",
                           "fontFamily": "System",
@@ -25875,12 +26650,21 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     H3
                   </Text>
                 </Text>
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6"
                     numberOfLines={0}
                     style={
                       Array [
@@ -25891,6 +26675,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "backgroundColor": "transparent",
                           "fontFamily": "System",
@@ -25899,12 +26684,21 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     H4
                   </Text>
                 </Text>
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6"
                     numberOfLines={0}
                     style={
                       Array [
@@ -25915,6 +26709,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "backgroundColor": "transparent",
                           "fontFamily": "System",
@@ -25923,12 +26718,21 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     H5
                   </Text>
                 </Text>
                 <Text>
                   <Text
+                    baseUrl="https://open.rocket.chat"
+                    getCustomEmoji={[Function]}
+                    msg="# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6"
                     numberOfLines={0}
                     style={
                       Array [
@@ -25939,6 +26743,7 @@ exports[`Storyshots Message list 1`] = `
                           "fontSize": 16,
                           "fontWeight": "400",
                         },
+                        Object {},
                         Object {
                           "backgroundColor": "transparent",
                           "fontFamily": "System",
@@ -25947,6 +26752,7 @@ exports[`Storyshots Message list 1`] = `
                         },
                       ]
                     }
+                    username="diego.mello"
                   >
                     H6
                   </Text>
@@ -26156,6 +26962,9 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                       numberOfLines={0}
                       style={
                         Array [
@@ -26166,6 +26975,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -26176,6 +26986,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Support 
                     </Text>
@@ -26192,6 +27003,9 @@ exports[`Storyshots Message list 1`] = `
                       }
                     >
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                         numberOfLines={0}
                         style={
                           Array [
@@ -26202,6 +27016,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -26219,11 +27034,15 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         Google
                       </Text>
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                       numberOfLines={0}
                       style={
                         Array [
@@ -26234,6 +27053,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -26244,6 +27064,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -26260,6 +27081,9 @@ exports[`Storyshots Message list 1`] = `
                       }
                     >
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                         numberOfLines={0}
                         style={
                           Array [
@@ -26270,6 +27094,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -26287,10 +27112,14 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         I
                       </Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                         numberOfLines={0}
                         style={
                           Array [
@@ -26301,6 +27130,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -26318,10 +27148,14 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         \`
                       </Text>
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                         numberOfLines={0}
                         style={
                           Array [
@@ -26332,6 +27166,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -26349,11 +27184,15 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         m an inline-style link
                       </Text>
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                       numberOfLines={0}
                       style={
                         Array [
@@ -26364,6 +27203,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -26374,6 +27214,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        
                     </Text>
@@ -26390,6 +27231,9 @@ exports[`Storyshots Message list 1`] = `
                       }
                     >
                       <Text
+                        baseUrl="https://open.rocket.chat"
+                        getCustomEmoji={[Function]}
+                        msg="Support <http://google.com|Google> [I\`m an inline-style link](https://www.google.com) https://google.com"
                         numberOfLines={0}
                         style={
                           Array [
@@ -26400,6 +27244,7 @@ exports[`Storyshots Message list 1`] = `
                               "fontSize": 16,
                               "fontWeight": "400",
                             },
+                            Object {},
                             Object {
                               "alignItems": "flex-start",
                               "flexDirection": "row",
@@ -26417,6 +27262,7 @@ exports[`Storyshots Message list 1`] = `
                             },
                           ]
                         }
+                        username="diego.mello"
                       >
                         https://google.com
                       </Text>
@@ -26848,6 +27694,12 @@ exports[`Storyshots Message list 1`] = `
                     numberOfLines={0}
                   >
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Inline \`code\` has \`back-ticks around\` it.
+\`\`\`
+Code block
+\`\`\`"
                       numberOfLines={0}
                       style={
                         Array [
@@ -26858,6 +27710,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -26868,6 +27721,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                       Inline 
                     </Text>
@@ -26885,6 +27739,12 @@ exports[`Storyshots Message list 1`] = `
                       code
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Inline \`code\` has \`back-ticks around\` it.
+\`\`\`
+Code block
+\`\`\`"
                       numberOfLines={0}
                       style={
                         Array [
@@ -26895,6 +27755,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -26905,6 +27766,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        has 
                     </Text>
@@ -26922,6 +27784,12 @@ exports[`Storyshots Message list 1`] = `
                       back-ticks around
                     </Text>
                     <Text
+                      baseUrl="https://open.rocket.chat"
+                      getCustomEmoji={[Function]}
+                      msg="Inline \`code\` has \`back-ticks around\` it.
+\`\`\`
+Code block
+\`\`\`"
                       numberOfLines={0}
                       style={
                         Array [
@@ -26932,6 +27800,7 @@ exports[`Storyshots Message list 1`] = `
                             "fontSize": 16,
                             "fontWeight": "400",
                           },
+                          Object {},
                           Object {
                             "alignItems": "flex-start",
                             "flexDirection": "row",
@@ -26942,6 +27811,7 @@ exports[`Storyshots Message list 1`] = `
                           },
                         ]
                       }
+                      username="diego.mello"
                     >
                        it.
                     </Text>
@@ -27193,6 +28063,9 @@ exports[`Storyshots Message list 1`] = `
                         numberOfLines={0}
                       >
                         <Text
+                          baseUrl="https://open.rocket.chat"
+                          getCustomEmoji={[Function]}
+                          msg="> Quote"
                           numberOfLines={0}
                           style={
                             Array [
@@ -27203,6 +28076,7 @@ exports[`Storyshots Message list 1`] = `
                                 "fontSize": 16,
                                 "fontWeight": "400",
                               },
+                              Object {},
                               undefined,
                               Object {
                                 "alignItems": "flex-start",
@@ -27214,6 +28088,7 @@ exports[`Storyshots Message list 1`] = `
                               },
                             ]
                           }
+                          username="diego.mello"
                         >
                           Quote
                         </Text>
@@ -27499,6 +28374,12 @@ exports[`Storyshots Message list 1`] = `
                               style={null}
                             >
                               <Text
+                                baseUrl="https://open.rocket.chat"
+                                getCustomEmoji={[Function]}
+                                msg="First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column"
                                 numberOfLines={0}
                                 style={
                                   Array [
@@ -27509,6 +28390,7 @@ exports[`Storyshots Message list 1`] = `
                                       "fontSize": 16,
                                       "fontWeight": "400",
                                     },
+                                    Object {},
                                     Object {
                                       "borderColor": "#e1e5e8",
                                       "borderLeftWidth": 1,
@@ -27518,6 +28400,7 @@ exports[`Storyshots Message list 1`] = `
                                     undefined,
                                   ]
                                 }
+                                username="diego.mello"
                               >
                                 First Header
                               </Text>
@@ -27542,6 +28425,12 @@ exports[`Storyshots Message list 1`] = `
                               style={null}
                             >
                               <Text
+                                baseUrl="https://open.rocket.chat"
+                                getCustomEmoji={[Function]}
+                                msg="First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column"
                                 numberOfLines={0}
                                 style={
                                   Array [
@@ -27552,6 +28441,7 @@ exports[`Storyshots Message list 1`] = `
                                       "fontSize": 16,
                                       "fontWeight": "400",
                                     },
+                                    Object {},
                                     Object {
                                       "borderColor": "#e1e5e8",
                                       "borderLeftWidth": 1,
@@ -27561,6 +28451,7 @@ exports[`Storyshots Message list 1`] = `
                                     undefined,
                                   ]
                                 }
+                                username="diego.mello"
                               >
                                 Second Header
                               </Text>
@@ -27602,6 +28493,12 @@ exports[`Storyshots Message list 1`] = `
                               style={null}
                             >
                               <Text
+                                baseUrl="https://open.rocket.chat"
+                                getCustomEmoji={[Function]}
+                                msg="First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column"
                                 numberOfLines={0}
                                 style={
                                   Array [
@@ -27612,6 +28509,7 @@ exports[`Storyshots Message list 1`] = `
                                       "fontSize": 16,
                                       "fontWeight": "400",
                                     },
+                                    Object {},
                                     Object {
                                       "borderColor": "#e1e5e8",
                                       "borderLeftWidth": 1,
@@ -27621,6 +28519,7 @@ exports[`Storyshots Message list 1`] = `
                                     undefined,
                                   ]
                                 }
+                                username="diego.mello"
                               >
                                 Content from cell 1
                               </Text>
@@ -27645,6 +28544,12 @@ exports[`Storyshots Message list 1`] = `
                               style={null}
                             >
                               <Text
+                                baseUrl="https://open.rocket.chat"
+                                getCustomEmoji={[Function]}
+                                msg="First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column"
                                 numberOfLines={0}
                                 style={
                                   Array [
@@ -27655,6 +28560,7 @@ exports[`Storyshots Message list 1`] = `
                                       "fontSize": 16,
                                       "fontWeight": "400",
                                     },
+                                    Object {},
                                     Object {
                                       "borderColor": "#e1e5e8",
                                       "borderLeftWidth": 1,
@@ -27664,6 +28570,7 @@ exports[`Storyshots Message list 1`] = `
                                     undefined,
                                   ]
                                 }
+                                username="diego.mello"
                               >
                                 Content from cell 2
                               </Text>
@@ -27701,6 +28608,12 @@ exports[`Storyshots Message list 1`] = `
                               style={null}
                             >
                               <Text
+                                baseUrl="https://open.rocket.chat"
+                                getCustomEmoji={[Function]}
+                                msg="First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column"
                                 numberOfLines={0}
                                 style={
                                   Array [
@@ -27711,6 +28624,7 @@ exports[`Storyshots Message list 1`] = `
                                       "fontSize": 16,
                                       "fontWeight": "400",
                                     },
+                                    Object {},
                                     Object {
                                       "borderColor": "#e1e5e8",
                                       "borderLeftWidth": 1,
@@ -27720,6 +28634,7 @@ exports[`Storyshots Message list 1`] = `
                                     undefined,
                                   ]
                                 }
+                                username="diego.mello"
                               >
                                 Content in the first column
                               </Text>
@@ -27744,6 +28659,12 @@ exports[`Storyshots Message list 1`] = `
                               style={null}
                             >
                               <Text
+                                baseUrl="https://open.rocket.chat"
+                                getCustomEmoji={[Function]}
+                                msg="First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column"
                                 numberOfLines={0}
                                 style={
                                   Array [
@@ -27754,6 +28675,7 @@ exports[`Storyshots Message list 1`] = `
                                       "fontSize": 16,
                                       "fontWeight": "400",
                                     },
+                                    Object {},
                                     Object {
                                       "borderColor": "#e1e5e8",
                                       "borderLeftWidth": 1,
@@ -27763,6 +28685,7 @@ exports[`Storyshots Message list 1`] = `
                                     undefined,
                                   ]
                                 }
+                                username="diego.mello"
                               >
                                 Content in the second column
                               </Text>
