@@ -83,7 +83,7 @@ const handleLoginSuccess = function* handleLoginSuccess({ user }) {
 			try {
 				serversDB.create('user', user, true);
 			} catch (e) {
-				log('err_set_user_token', e);
+				log(e);
 			}
 		});
 
@@ -100,7 +100,7 @@ const handleLoginSuccess = function* handleLoginSuccess({ user }) {
 			yield put(appStart('inside'));
 		}
 	} catch (e) {
-		log('err_handle_login_success', e);
+		log(e);
 	}
 };
 
@@ -121,7 +121,7 @@ const handleLogout = function* handleLogout() {
 			yield put(serverRequest(appConfig.server));
 		} catch (e) {
 			yield put(serverRequest(appConfig.server));
-			log('err_handle_logout', e);
+			log(e);
 		}
 	}
 };
