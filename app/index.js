@@ -16,7 +16,7 @@ import { initializePushNotifications, onNotification } from './notifications/pus
 import store from './lib/createStore';
 import NotificationBadge from './notifications/inApp';
 import { defaultHeader, onNavigationStateChange } from './utils/navigation';
-import { loggerConfig, analytics } from './utils/log';
+import { loggerConfig } from './utils/log';
 import Toast from './containers/Toast';
 import RocketChat from './lib/rocketchat';
 
@@ -300,7 +300,7 @@ export default class Root extends React.Component {
 				if (!allowCrashReport) {
 					loggerConfig.autoNotify = false;
 					loggerConfig.registerBeforeSendCallback(() => false);
-					analytics().setAnalyticsCollectionEnabled(false);
+					// analytics().setAnalyticsCollectionEnabled(false);
 				}
 			});
 	}

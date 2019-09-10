@@ -31,6 +31,40 @@ target 'RocketChatRN' do
   use_native_modules!
   use_unimodules!
 
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
+  pod 'RNAudio', :path => '../node_modules/react-native-audio'
+
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
+  pod 'react-native-document-picker', :path => '../node_modules/react-native-document-picker'
+
+  pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
+
+  pod 'react-native-keyboard-input', :path => '../node_modules/react-native-keyboard-input'
+
+  pod 'react-native-keyboard-tracking-view', :path => '../node_modules/react-native-keyboard-tracking-view'
+
+  pod 'RNLocalize', :path => '../node_modules/react-native-localize'
+
+  pod 'react-native-notifications', :path => '../node_modules/react-native-notifications'
+
+  pod 'react-native-orientation-locker', :path => '../node_modules/react-native-orientation-locker'
+
+  pod 'react-native-realm-path', :path => '../node_modules/react-native-realm-path'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
 end
 
 target 'ShareRocketChatRN' do
