@@ -16,7 +16,7 @@ import org.wonday.orientation.OrientationPackage;
 import com.reactcommunity.rnlocalize.RNLocalizePackage;
 import com.reactnative.ivpusic.imagepicker.PickerPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
-import io.invertase.firebase.RNFirebasePackage;
+//import io.invertase.firebase.RNFirebasePackage;
 import com.dylanvann.fastimage.FastImageViewPackage;
 import io.github.elyx0.reactnativedocumentpicker.DocumentPickerPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
@@ -42,9 +42,9 @@ import com.wix.reactnativenotifications.core.notification.INotificationsApplicat
 import com.wix.reactnativenotifications.core.notification.IPushNotification;
 import com.wix.reactnativekeyboardinput.KeyboardInputPackage;
 
-import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
-import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
-import io.invertase.firebase.perf.RNFirebasePerformancePackage;
+//import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
+//import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
+//import io.invertase.firebase.perf.RNFirebasePerformancePackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -63,9 +63,9 @@ public class MainApplication extends Application implements ReactApplication, IN
     protected List<ReactPackage> getPackages() {
       @SuppressWarnings("UnnecessaryLocalVariable")
       List<ReactPackage> packages = new PackageList(this).getPackages();
-      packages.add(new RNFirebaseCrashlyticsPackage());
-      packages.add(new RNFirebaseAnalyticsPackage());
-      packages.add(new RNFirebasePerformancePackage());
+//      packages.add(new RNFirebaseCrashlyticsPackage());
+//      packages.add(new RNFirebaseAnalyticsPackage());
+//      packages.add(new RNFirebasePerformancePackage());
       packages.add(new KeyboardInputPackage(MainApplication.this));
       packages.add(new RNNotificationsPackage(MainApplication.this));
       packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
